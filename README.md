@@ -13,13 +13,15 @@
 
 📖 What We Are Covering
 
-In this introductory lab, we are moving from "Zero to AI-ready" by mastering the fundamentals of Python interaction. We will cover:
+* **Environment Setup:** You’ll learn to "mount" Google Drive to Google Colab, building a bridge that allows the cloud-based Python environment to access your stored PDF files.
 
-* Python Execution: Learning how to trigger the Python interpreter using the Play button in a cloud environment.
-* Strings & Data Types: Understanding how computers handle human language (Text vs. Strings) using quotes.
-* Variable, Objects & Assignment: Using the = operator to store data in "containers" for later use.
-* The Print Function: Invoking your first Python function, print(), to output data from the computer's memory to your screen.
-* Cell Management: Learning how to expand your notebook by adding and running new code blocks.
+* **The PDF Engine"** The lecture introduces PyMuPDF (fitz), the core tool used to open documents, target specific pages via zero-indexing (where doc[0] is page one), and measure page dimensions.
+
+* **High-Resolution Rendering:** You will convert mathematical PDF data into a visual Pixmap at 300 DPI, the professional standard that ensures text remains sharp and clear for further processing.
+
+* **Grayscale Optimization:** The guide explains why collapsing three color channels (RGB) into one (Luminance) reduces the data workload by 66%, making background removal faster and more accurate.
+
+* **Data Reshaping with NumPy:** You’ll use NumPy to transform a flat list of raw pixel numbers into a structured 2D Matrix (height and width), which OpenCV then uses to save the final image file.
 
 ---
 
