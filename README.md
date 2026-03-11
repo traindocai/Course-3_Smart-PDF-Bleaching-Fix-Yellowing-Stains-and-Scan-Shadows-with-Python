@@ -13,15 +13,11 @@
 
 📖 What We Are Covering
 
-* **Environment Setup:** You’ll learn to "mount" Google Drive to Google Colab, building a bridge that allows the cloud-based Python environment to access your stored PDF files.
-
-* **The PDF Engine"** The lecture introduces PyMuPDF (fitz), the core tool used to open documents, target specific pages via zero-indexing (where doc[0] is page one), and measure page dimensions.
-
-* **High-Resolution Rendering:** You will convert mathematical PDF data into a visual Pixmap at 300 DPI, the professional standard that ensures text remains sharp and clear for further processing.
-
-* **Grayscale Optimization:** The guide explains why collapsing three color channels (RGB) into one (Luminance) reduces the data workload by 66%, making background removal faster and more accurate.
-
-* **Data Reshaping with NumPy:** You’ll use NumPy to transform a flat list of raw pixel numbers into a structured 2D Matrix (height and width), which OpenCV then uses to save the final image file.
+* **Environment Integration:** Connects Google Colab to Google Drive, creating a persistent data bridge for cloud-based file management.
+* **PDF Engine Initialization:** Installs and imports the PyMuPDF (fitz) library to handle PDF parsing, page extraction (using zero-indexing), and coordinate mapping.
+* **High-Fidelity Rendering:** Converts mathematical PDF instructions into a 300 DPI Pixmap, ensuring the resolution is sharp enough for accurate text preservation and background cleaning.
+* **Grayscale Transformation:** Collapses 3-channel RGB data into a single Luminance channel, reducing the computational memory footprint by 66% and simplifying noise filtering.
+* **Data Reshaping with NumPy:** Utilizes NumPy to transform raw pixel buffers into structured 2D Grayscale Matrices that are compatible with OpenCV for final image export and analysis.
 
 ---
 
