@@ -5,7 +5,7 @@
 
 ### Click the button below to access the notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/traindocai/Smart-PDF-Bleaching-Fix-Yellowing-Stains-and-Scan-Shadows-with-Python/blob/main/Smart_PDF_Bleaching_Fix_Yellowing%2C_Stains%2C_and_Scan_Shadows_with_Python.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bQsBrXfAhdH8h_gw53sRLqKcIFrVER2e)
 
 > **IMPORTANT:** Once the notebook opens, go to **File > Save a copy in Drive**. If you do not save a copy, your progress and changes will not be saved to your personal account.
 
