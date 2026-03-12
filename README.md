@@ -1,5 +1,5 @@
 # Smart-PDF-Bleaching-Fix-Yellowing-Stains-and-Scan-Shadows-with-Python
-# Converting PDFs to Grayscale
+# Course 3: Converting PDFs to Grayscale
 
 ### 🚀 Get Started
 
