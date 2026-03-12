@@ -13,11 +13,11 @@
 
 📖 What We Are Covering
 
-* **Environment Integration:** Connects Google Colab to Google Drive, creating a persistent data bridge for cloud-based file management.
-* **PDF Engine Initialization:** Installs and imports the PyMuPDF (fitz) library to handle PDF parsing, page extraction (using zero-indexing), and coordinate mapping.
-* **High-Fidelity Rendering:** Converts mathematical PDF instructions into a 300 DPI Pixmap, ensuring the resolution is sharp enough for accurate text preservation and background cleaning.
-* **Grayscale Transformation:** Collapses 3-channel RGB data into a single Luminance channel, reducing the computational memory footprint by 66% and simplifying noise filtering.
-* **Data Reshaping with NumPy:** Utilizes NumPy to transform raw pixel buffers into structured 2D Grayscale Matrices that are compatible with OpenCV for final image export and analysis.
+* Environment & Setup: Build a bridge between your AI Notebook and Google Drive so Python can securely access and save your documents.
+* Create a High-Resolution Snapshot: Initialize the PyMuPDF engine to render PDFs at 300 DPI. This creates a crisp digital canvas that ensures Python never misses a detail.
+* Restructure Data (The Matrix): Learn how to “reshape” raw data into a 2D NumPy grid. You will transform a flat list of numbers into an organized map of pixels that the computer can read.
+* Execute Grayscale Transformation: Strip away complex colour layers to reduce data load by 66%. This focuses Python’s “brain” on the text while ignoring background stains and noise.
+* Smart Storage & Validation: Use “The Measuring Tape” to verify page dimensions and use OpenCV to export your processed data as a clean, shareable PNG file.
 
 ---
 
@@ -34,7 +34,7 @@ This material is provided exclusively for students of **TrainDoc AI**.
 Link https://traindocai.com/
 
 **Attribution:**
-Parts of this code and educational content are adapted from the course **"Converting PDFs to Grayscale** by **TrainDoc AI**. All original rights to that content belong to the respective copyright holders.
+Parts of this code and educational content are adapted from the course **"Converting PDFs to Grayscale"** by **TrainDoc AI**. All original rights to that content belong to the respective copyright holders.
 
 Link https://traindocai.com/courses-page/converting-pdfs-to-grayscale/
 
