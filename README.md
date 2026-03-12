@@ -1,4 +1,4 @@
-# Smart PDF Bleaching: Fix Yellowing Stains and Scan Shadows with Python
+# Smart PDF Bleaching: Fix Yellowing, Stains, and Scan Shadows with Python
 # Course 3: Converting PDFs to Grayscale
 
 ### 🚀 Get Started
