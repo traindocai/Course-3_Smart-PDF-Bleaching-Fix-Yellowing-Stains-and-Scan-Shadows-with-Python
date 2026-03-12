@@ -13,11 +13,11 @@
 
 📖 What We Are Covering
 
-* Environment & Setup: Build a bridge between your AI Notebook and Google Drive so Python can securely access and save your documents.
-* Create a High-Resolution Snapshot: Initialize the PyMuPDF engine to render PDFs at 300 DPI. This creates a crisp digital canvas that ensures Python never misses a detail.
-* Restructure Data (The Matrix): Learn how to “reshape” raw data into a 2D NumPy grid. You will transform a flat list of numbers into an organized map of pixels that the computer can read.
-* Execute Grayscale Transformation: Strip away complex colour layers to reduce data load by 66%. This focuses Python’s “brain” on the text while ignoring background stains and noise.
-* Smart Storage & Validation: Use “The Measuring Tape” to verify page dimensions and use OpenCV to export your processed data as a clean, shareable PNG file.
+* **Environment & Setup:** Build a bridge between your AI Notebook and Google Drive so Python can securely access and save your documents.
+* **Create a High-Resolution Snapshot:** Initialize the PyMuPDF engine to render PDFs at 300 DPI. This creates a crisp digital canvas that ensures Python never misses a detail.
+* **Restructure Data (The Matrix):** Learn how to “reshape” raw data into a 2D NumPy grid. You will transform a flat list of numbers into an organized map of pixels that the computer can read.
+* **Execute Grayscale Transformation:** Strip away complex colour layers to reduce data load by 66%. This focuses Python’s “brain” on the text while ignoring background stains and noise.
+* **Smart Storage & Validation:** Use “The Measuring Tape” to verify page dimensions and use OpenCV to export your processed data as a clean, shareable PNG file.
 
 ---
 
